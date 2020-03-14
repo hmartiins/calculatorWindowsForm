@@ -44,29 +44,31 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnComma = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
-            this.btnPlusLess = new System.Windows.Forms.Button();
             this.btnDivided = new System.Windows.Forms.Button();
-            this.btnAobreX = new System.Windows.Forms.Button();
+            this.btnSobreX = new System.Windows.Forms.Button();
             this.btnSource = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnSquare = new System.Windows.Forms.Button();
-            this.btn = new System.Windows.Forms.Button();
+            this.btnCE = new System.Windows.Forms.Button();
             this.btnC = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnParenthesesOpen = new System.Windows.Forms.Button();
+            this.btnParenthesesClosed = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(13, 12);
+            this.textBox1.Location = new System.Drawing.Point(12, 29);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(241, 39);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.Location = new System.Drawing.Point(13, 262);
             this.btn1.Name = "btn1";
@@ -79,6 +81,7 @@
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn2.Location = new System.Drawing.Point(71, 262);
             this.btn2.Name = "btn2";
@@ -91,6 +94,7 @@
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn3.Location = new System.Drawing.Point(130, 262);
             this.btn3.Name = "btn3";
@@ -102,10 +106,11 @@
             // 
             // btnPlus
             // 
+            this.btnPlus.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlus.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlus.Location = new System.Drawing.Point(201, 262);
+            this.btnPlus.Location = new System.Drawing.Point(202, 262);
             this.btnPlus.Name = "btnPlus";
-            this.btnPlus.Size = new System.Drawing.Size(53, 41);
+            this.btnPlus.Size = new System.Drawing.Size(52, 41);
             this.btnPlus.TabIndex = 4;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
@@ -114,6 +119,7 @@
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn4.Location = new System.Drawing.Point(13, 215);
             this.btn4.Name = "btn4";
@@ -126,6 +132,7 @@
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5.Location = new System.Drawing.Point(71, 215);
             this.btn5.Name = "btn5";
@@ -138,6 +145,7 @@
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn6.Location = new System.Drawing.Point(130, 215);
             this.btn6.Name = "btn6";
@@ -150,6 +158,7 @@
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn7.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn7.Location = new System.Drawing.Point(13, 168);
@@ -163,6 +172,7 @@
             // btn8
             // 
             this.btn8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn8.Location = new System.Drawing.Point(72, 168);
             this.btn8.Name = "btn8";
@@ -175,6 +185,7 @@
             // btn9
             // 
             this.btn9.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn9.Location = new System.Drawing.Point(131, 168);
             this.btn9.Name = "btn9";
@@ -186,6 +197,7 @@
             // 
             // btnLess
             // 
+            this.btnLess.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLess.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLess.Location = new System.Drawing.Point(202, 215);
             this.btnLess.Name = "btnLess";
@@ -197,6 +209,7 @@
             // 
             // btnMultiply
             // 
+            this.btnMultiply.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMultiply.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMultiply.Location = new System.Drawing.Point(202, 168);
             this.btnMultiply.Name = "btnMultiply";
@@ -209,6 +222,7 @@
             // btn0
             // 
             this.btn0.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn0.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn0.Location = new System.Drawing.Point(72, 309);
             this.btn0.Name = "btn0";
@@ -221,6 +235,7 @@
             // btnComma
             // 
             this.btnComma.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnComma.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnComma.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnComma.Location = new System.Drawing.Point(130, 309);
             this.btnComma.Name = "btnComma";
@@ -232,53 +247,45 @@
             // 
             // btnEqual
             // 
+            this.btnEqual.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEqual.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEqual.Location = new System.Drawing.Point(201, 309);
+            this.btnEqual.Location = new System.Drawing.Point(202, 309);
             this.btnEqual.Name = "btnEqual";
-            this.btnEqual.Size = new System.Drawing.Size(53, 41);
+            this.btnEqual.Size = new System.Drawing.Size(52, 41);
             this.btnEqual.TabIndex = 15;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
-            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
-            // 
-            // btnPlusLess
-            // 
-            this.btnPlusLess.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnPlusLess.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlusLess.Location = new System.Drawing.Point(13, 309);
-            this.btnPlusLess.Name = "btnPlusLess";
-            this.btnPlusLess.Size = new System.Drawing.Size(53, 41);
-            this.btnPlusLess.TabIndex = 16;
-            this.btnPlusLess.Text = "+/-";
-            this.btnPlusLess.UseVisualStyleBackColor = false;
-            this.btnPlusLess.Click += new System.EventHandler(this.btnPlusLess_Click);
+            this.btnEqual.Click += new System.EventHandler(this.calcExpression);
             // 
             // btnDivided
             // 
+            this.btnDivided.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDivided.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDivided.Location = new System.Drawing.Point(201, 121);
+            this.btnDivided.Location = new System.Drawing.Point(202, 121);
             this.btnDivided.Name = "btnDivided";
-            this.btnDivided.Size = new System.Drawing.Size(53, 41);
+            this.btnDivided.Size = new System.Drawing.Size(51, 41);
             this.btnDivided.TabIndex = 17;
             this.btnDivided.Text = "÷";
             this.btnDivided.UseVisualStyleBackColor = true;
             this.btnDivided.Click += new System.EventHandler(this.btnDivided_Click);
             // 
-            // btnAobreX
+            // btnSobreX
             // 
-            this.btnAobreX.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAobreX.Location = new System.Drawing.Point(12, 121);
-            this.btnAobreX.Name = "btnAobreX";
-            this.btnAobreX.Size = new System.Drawing.Size(53, 41);
-            this.btnAobreX.TabIndex = 19;
-            this.btnAobreX.Text = "1/x";
-            this.btnAobreX.UseVisualStyleBackColor = true;
-            this.btnAobreX.Click += new System.EventHandler(this.btnAobreX_Click);
+            this.btnSobreX.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSobreX.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSobreX.Location = new System.Drawing.Point(12, 121);
+            this.btnSobreX.Name = "btnSobreX";
+            this.btnSobreX.Size = new System.Drawing.Size(53, 41);
+            this.btnSobreX.TabIndex = 19;
+            this.btnSobreX.Text = "1/x";
+            this.btnSobreX.UseVisualStyleBackColor = true;
+            this.btnSobreX.Click += new System.EventHandler(this.btnSobreX_Click);
             // 
             // btnSource
             // 
+            this.btnSource.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSource.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSource.Location = new System.Drawing.Point(131, 121);
+            this.btnSource.Location = new System.Drawing.Point(130, 121);
             this.btnSource.Name = "btnSource";
             this.btnSource.Size = new System.Drawing.Size(53, 41);
             this.btnSource.TabIndex = 20;
@@ -288,10 +295,11 @@
             // 
             // btnDelete
             // 
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDelete.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(131, 74);
+            this.btnDelete.Location = new System.Drawing.Point(202, 74);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(124, 41);
+            this.btnDelete.Size = new System.Drawing.Size(53, 41);
             this.btnDelete.TabIndex = 21;
             this.btnDelete.Text = "←";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -299,6 +307,7 @@
             // 
             // btnSquare
             // 
+            this.btnSquare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSquare.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSquare.Location = new System.Drawing.Point(72, 121);
             this.btnSquare.Name = "btnSquare";
@@ -308,21 +317,23 @@
             this.btnSquare.UseVisualStyleBackColor = true;
             this.btnSquare.Click += new System.EventHandler(this.btnSquare_Click);
             // 
-            // btn
+            // btnCE
             // 
-            this.btn.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn.Location = new System.Drawing.Point(72, 74);
-            this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(53, 41);
-            this.btn.TabIndex = 22;
-            this.btn.Text = "CE";
-            this.btn.UseVisualStyleBackColor = true;
-            this.btn.Click += new System.EventHandler(this.btn_Click);
+            this.btnCE.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCE.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCE.Location = new System.Drawing.Point(12, 309);
+            this.btnCE.Name = "btnCE";
+            this.btnCE.Size = new System.Drawing.Size(53, 41);
+            this.btnCE.TabIndex = 22;
+            this.btnCE.Text = "CE";
+            this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
             // btnC
             // 
+            this.btnC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnC.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC.Location = new System.Drawing.Point(13, 74);
+            this.btnC.Location = new System.Drawing.Point(12, 74);
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(53, 41);
             this.btnC.TabIndex = 23;
@@ -330,20 +341,55 @@
             this.btnC.UseVisualStyleBackColor = true;
             this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.TabIndex = 24;
+            // 
+            // btnParenthesesOpen
+            // 
+            this.btnParenthesesOpen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnParenthesesOpen.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParenthesesOpen.Location = new System.Drawing.Point(72, 74);
+            this.btnParenthesesOpen.Name = "btnParenthesesOpen";
+            this.btnParenthesesOpen.Size = new System.Drawing.Size(53, 41);
+            this.btnParenthesesOpen.TabIndex = 25;
+            this.btnParenthesesOpen.Text = "(";
+            this.btnParenthesesOpen.UseVisualStyleBackColor = true;
+            this.btnParenthesesOpen.Click += new System.EventHandler(this.btnParenthesesOpen_Click);
+            // 
+            // btnParenthesesClosed
+            // 
+            this.btnParenthesesClosed.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnParenthesesClosed.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParenthesesClosed.Location = new System.Drawing.Point(130, 74);
+            this.btnParenthesesClosed.Name = "btnParenthesesClosed";
+            this.btnParenthesesClosed.Size = new System.Drawing.Size(53, 41);
+            this.btnParenthesesClosed.TabIndex = 26;
+            this.btnParenthesesClosed.Text = ")";
+            this.btnParenthesesClosed.UseVisualStyleBackColor = true;
+            this.btnParenthesesClosed.Click += new System.EventHandler(this.btnParenthesesClosed_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(266, 358);
+            this.Controls.Add(this.btnParenthesesClosed);
+            this.Controls.Add(this.btnParenthesesOpen);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnC);
-            this.Controls.Add(this.btn);
+            this.Controls.Add(this.btnCE);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnSource);
-            this.Controls.Add(this.btnAobreX);
+            this.Controls.Add(this.btnSobreX);
             this.Controls.Add(this.btnSquare);
             this.Controls.Add(this.btnDivided);
-            this.Controls.Add(this.btnPlusLess);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnComma);
             this.Controls.Add(this.btn0);
@@ -384,14 +430,16 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnComma;
         private System.Windows.Forms.Button btnEqual;
-        private System.Windows.Forms.Button btnPlusLess;
         private System.Windows.Forms.Button btnDivided;
-        private System.Windows.Forms.Button btnAobreX;
+        private System.Windows.Forms.Button btnSobreX;
         private System.Windows.Forms.Button btnSource;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnSquare;
-        private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.Button btnCE;
         private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnParenthesesOpen;
+        private System.Windows.Forms.Button btnParenthesesClosed;
     }
 }
 
